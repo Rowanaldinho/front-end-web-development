@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A sample HTML page with various attributes">
+    <meta name="keywords" content="HTML, CSS, JavaScript, attributes">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 class="title" title="Welcome to the Test Page">Hello World</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is a paragraph with a <a href="https://rte.ie" target="_blank">link</a>.</p>
+        <img src="image.jpg" alt="Sample Image" width="300" height="200">
+    </section>
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is another paragraph with a <span style="color: blue;">styled text</span>.</p>
+    </section>
+    <section id="section3">
+        <h2>Section 3</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <input type="checkbox" name="True">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
